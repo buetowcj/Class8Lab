@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radio Button Schedule</title>
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="code.js"></script>
+<body>
+<h1>My Schedule</h1>
+<form>
+    <fieldset>
+        <legend>Choose a day to view schedule</legend>
+        <p>
+            <input type = "radio"
+                   name = "monday"
+                   id = "MonDay"
+                   value = "day"
+                   checked = "checked" />
+            <label for = "MonDay">Monday</label> <br>
+
+            <input type = "radio"
+                   name = "tuesday"
+                   id = "TuesDay"
+                   value = "day" />
+            <label for = "TuesDay">Tuesday</label> <br>
+
+            <input type = "radio"
+                   name = "wednesday"
+                   id = "WednesDay"
+                   value = "day" />
+            <label for = "WednesDay">Wednesday</label> <br>
+
+            <input type = "radio"
+                   name = "thursday"
+                   id = "ThursDay"
+                   value = "day" />
+            <label for = "ThursDay">Thursday</label> <br>
+
+            <input type = "radio"
+                   name = "friday"
+                   id = "FriDay"
+                   value = "day" />
+            <label for = "FriDay">Friday</label> <br>
+
+            <input type = "radio"
+                   name = "saturday"
+                   id = "SaturDay"
+                   value = "day" />
+            <label for = "SaturDay">Saturday</label> <br>
+
+            <input type = "radio"
+                   name = "saturday"
+                   id = "SunDay"
+                   value = "day" />
+            <label for = "SunDay">Sunday</label> <br>
+        </p>
+    </fieldset>
+</form>
+    <fieldset>
+        <table>
+            <tr>
+                <th>Event</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Work:</td>
+                <td>7:30 AM - 4:30 PM</td>
+            </tr>
+            <tr>
+                <td>Exercise:</td>
+                <td>5:00 PM - 6:00 PM</td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
